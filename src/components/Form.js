@@ -261,6 +261,8 @@ export default function Form(props) {
           {/* <Link to="/confirmation">
           </Link> */}
           <div className="errors">
+            <div>{errors.fname}</div>
+            <div>{errors.lname}</div>
             <div>{errors.size}</div>
             <div>{errors.sauce}</div>
           </div>

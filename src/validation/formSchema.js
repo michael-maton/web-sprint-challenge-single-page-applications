@@ -4,11 +4,11 @@ export default yup.object().shape({
   fname: yup
     .string()
     .required("Enter your first name")
-    .min(2, "first name must be at least 1 char"),
+    .min(2, "first name must be at least 2 char"),
   lname: yup
     .string()
     .required("Enter your last name")
-    .min(2, "last name must be at least 1 char"),
+    .min(2, "last name must be at least 2 char"),
   size: yup
     .string()
     .oneOf(["small", "medium", "large", "extraLarge"], "Choose a size"),
