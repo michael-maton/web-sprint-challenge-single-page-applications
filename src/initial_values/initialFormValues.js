@@ -1,0 +1,25 @@
+const initialFormValues = {
+  fname: "",
+  lname: "",
+  size: "",
+  sauce: "",
+  pepperoni: "",
+  sausage: "",
+  spicySausage: "",
+  grilledChicen: "",
+  onions: "",
+  greenPepper: "",
+  dicedTomatoes: "",
+  blackOlives: "",
+  greenOlives: "",
+  roastedGarlic: "",
+  threeCheese: "",
+  beef: "",
+  giardiniera: "",
+  extraCheese: "",
+  glutenFree: "",
+  specialInstructions: "",
+  amount: "1",
+};
+
+export { initialFormValues };
